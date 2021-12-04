@@ -8,7 +8,6 @@ contract TestArrayShift is ArrayRemoveByShifting, DSTest {
     uint[] private copy;
 
     function test_remove(uint[] memory _arr, uint _i) public {
-        // TODO: run test withoug short circuit
         if (_i >= _arr.length) {
             return;
         }

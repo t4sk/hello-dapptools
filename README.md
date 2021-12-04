@@ -1,8 +1,10 @@
-- install
-- `dapp build`
-- `dapp test`
-- install openzeppelin
-- test array propperty based testing
+# Hello dapptools
+
+-   install
+-   `dapp build`
+-   `dapp test`
+-   install openzeppelin
+-   test array by fuzzing
 
 ```
 dapp init

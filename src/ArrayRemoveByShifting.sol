@@ -11,7 +11,6 @@ contract ArrayRemoveByShifting {
             arr[i] = arr[i + 1];
         }
 
-        // TODO: test fail
         arr.pop();
     }
 }
