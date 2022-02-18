@@ -1,10 +1,10 @@
 # Hello dapptools
 
-- install
-- `dapp build`
-- `dapp test`
-- install openzeppelin
-- test array by fuzzing
+-   install
+-   `dapp build`
+-   `dapp test`
+-   install openzeppelin
+-   test array by fuzzing
 
 # Install
 
@@ -26,4 +26,6 @@ dapp test --fuzz-runs 1000
 dapp test -m name_of_test
 # test ffi
 dapp test -m test_ffi --ffi
+# invariant test
+dapp test -m invariant_totalSupply --fuzz-runs 500 --depth 10
 ```
