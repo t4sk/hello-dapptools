@@ -38,7 +38,7 @@ contract TestOwnable is DSTest {
     assertEq(ownable.owner(), address(1));
   }
 
-  function setFail_setOwner() public {
+  function testFail_setOwner() public {
     alice.setOwner(address(alice));
   }
 }
